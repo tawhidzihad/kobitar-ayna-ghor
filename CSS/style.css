@@ -9,6 +9,8 @@
     background-color: #f0f0f0;
     border-bottom: 1px solid #ccc;
     height: 20vh;
+    width: 70%;
+    margin: auto;
 }
 
 .site_title{
