@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Styling */
+.max_width{
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+.flex_display{
+    display: flex;
+}
+
+.primary_bg_color{
+    background-color: #FEF3E2;
+}
+
+.h_t_color{
+    color: #347928;
+}
+
+.h_t_color2{
+    color: rgba(255, 0, 0, 0.687);
+}
+
+.p_text_color{
+    color:#3b3b3b;
+}
+
+.card_text_color{
+    color: #36454F;
+}
+
+/* Header Styling */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    border-radius: 8px;
+}
+
+/* কবিদের তালিকা Styling */
+.card_section{
+    background-color: #C0EBA6;
+    border-radius: 8px;
+}
+
+.kobi_info{
+    text-align: center;
+    margin: 30px 30px;
+    padding: 20px 200px 0px;
+}
+
+.kobi_info h2{
+    font-size: 2rem;
+}
+
+.card_conatiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card img{
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
